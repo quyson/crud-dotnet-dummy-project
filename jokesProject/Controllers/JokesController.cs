@@ -45,6 +45,12 @@ namespace jokesProject.Controllers
             return View(joke);
         }
 
+        //GET: Jokes/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+             return View();
+        }
+
         // GET: Jokes/Create
         public IActionResult Create()
         {
